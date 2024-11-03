@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: green;
+  
+}
+
+/* .nav {
+  display: flex;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  justify-content: center;
+  list-style-type: none;
+  background-color: aliceblue;
+  padding: 10px;
+  
+
+} */
+
+.nav {
+padding: 10px;
+font-size: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row-reverse;
+font-family: georgia;
+font-weight: 600;
+border: 2px solid transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  gap: 18px;
+  display: flex;
+  border: 2px solid transparent;
+  
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  padding: 32px;
+  border: 2px solid black;
+  border-radius: 2rem;
+  background-color: aliceblue;
+  
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+}
+
+.pic {
+ text-align: center;
+}
+
+.choices {
+  margin: 10px;
+  text-align: center;
+   
+
+}
+.choices select {
+font-size: 30px;
+  
+}
+
+.choices button {
+  font-size: 30px;
+  margin: 8px;
+}
+
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 1px solid black;
+}
+.scoreboard h2 {
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <div>
+                <div class="nav">
+                    <div class="links">
+                    <ul>
+                        <li><a class="navlink" href="index.html" class="black-text">play</a></li>
+                        <li><a class="navlink" href="rules.html" class="black-text">rules</a></li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+    </div>
+    <div class="title">
+   
+        <h1>Rock, Paper, Scissors</h1>
+    
+    </div>
+
+<div class="pic">
+    <img src="rps.jpg" alt="rock paper scissors">
+</div>
+
+    <div class="choices">
+
+     <select value="players-move" id="players-move">
+      <option value="rock" >rock</option>
+      <option value="paper">paper</option>
+      <option value="scissors">scissors</optiom>
+     </select>
+     <button onclick="playGame()">play</button>
+     <button onclick="reset()">reset</button>
+    </div>
+
+    <div class="scoreboard">
+        <h2>Score</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td id="playersScore">0</td>
+              <td id="computerScore">0</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>player one</th>
+              <th>cpu</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+
+</body>
+
+<script src="script.js"></script>
+</html>
