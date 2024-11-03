@@ -73,7 +73,7 @@ ul {
    
 
 }
-.choices select {
+.choices, .playerchoice {
 font-size: 30px;
   
 }
